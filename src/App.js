@@ -201,11 +201,8 @@ function classNames(...classes) {
   return (
     <BrowserRouter>
       <div  >
-       
-      
         <main>
-          <Routes>
-          
+          <Routes>      
           <Route path="/product" element={<ProductScreen />} />
           <Route path="/category" element={<Product/>} />
           <Route path="/cart" element={<Cart/>} />
